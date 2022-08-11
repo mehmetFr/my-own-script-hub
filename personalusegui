@@ -1,0 +1,77 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Basic GUI for Professional People V0.1", "Ocean")
+
+
+
+local Main = Window:NewTab("Annoying Scripts")
+local MainSection = Main:NewSection("Fling Section")
+
+MainSection:NewButton("FE Yeet GUI (trollface edition)", "Makes you fling people", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/mehmetFr/my-own-script-hub/main/yeet%20gui", true))() 
+end)
+MainSection:NewButton("Fling GUI", "a GUI for fling people", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/mehmetFr/my-own-script-hub/main/fling%20GUI", true))()
+end)
+
+
+local Main = Window:NewTab("GUI Section")
+local MainSection = Main:NewSection("GUIs")
+
+MainSection:NewButton("Infinite Yield", "OP admin commands", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source", true))() 
+end)
+MainSection:NewButton("Cmd-X", "Another OP admin command gui", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))() 
+end)
+
+
+
+local Main = Window:NewTab("Epic Scripts")
+
+
+local MainSection = Main:NewSection("Appearance Scripts")
+
+MainSection:NewButton("Giant Script", "Makes you really t a l l", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/mehmetFr/my-own-script-hub/main/giant%20script", true))()
+end)
+
+local MainSection = Main:NewSection("Dance Scripts")
+
+MainSection:NewButton("NullWare Hub", "You will got the vibe", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/mehmetFr/my-own-script-hub/main/nullware", true))()
+end)
+
+
+local Main = Window:NewTab("MM2 exploits")
+
+local MainSection = Main:NewSection("Hub Section")
+
+MainSection:NewButton("Eclipse Hub", "Da best Hub in the community", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/mehmetFr/my-own-script-hub/main/eclipse%20hub", true))()
+end)
+
+
+
+local Main = Window:NewTab("Professional Scripts")
+local MainSection = Main:NewSection("Slasher (sword) Script")
+
+MainSection:NewButton("Main Script", "You need a hat for this", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/mehmetFr/my-own-script-hub/main/main", true))()
+end)
+MainSection:NewButton("Net Bypass", "Makes your body parts stick together", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/mehmetFr/my-own-script-hub/main/bypass", true))()
+end)
+
+local MainSection = Main:NewSection("Among Us Script")
+
+MainSection:NewButton("AmongUs", "Sus", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/mehmetFr/my-own-script-hub/main/amongus", true))()
+end)
+
+notif("Loaded successfully! Created by memed#5990", 5)
+
+
+
+
+
+

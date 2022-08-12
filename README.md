@@ -1,2 +1,2 @@
 # my-own-script-hub
-wasssup nigg
+top 7 pakistani mens who have said the n word
